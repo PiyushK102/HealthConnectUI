@@ -31,14 +31,13 @@ a{
 }
 .content{
     text-align: center;
-    margin-top:0.5% ;
+    margin-top: 0;
     width: 98vw;
     height:93vh;
     background-image: url(https://mcmscache.epapr.in/post_images/website_350/post_28872061/full.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.25%;
-    
+    /* padding: 0.25%; */
 }
 .writeup{
 
@@ -79,18 +78,25 @@ a{
 }
 .Homeservices{
     
-    background-color: rgba(0, 0, 0, 0.611);
-    color: aliceblue;
-    background-image: url(https://mcmscache.epapr.in/post_images/website_350/post_28872061/full.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0.25%;
-    border:3px white dashed;
-    text-align: center;
+background-color: rgba(0, 0, 0, 0.611);
     
+color: aliceblue;
+    
+background-image: url(https://mcmscache.epapr.in/post_images/website_350/post_28872061/full.jpg);
+    
+background-repeat: no-repeat;
+    
+background-size: contain;
+    
+padding: 0.25%;
+    
+border:3px white dashed;
+    
+text-align: center;
 }
 .serviceno{
     display: flex;
+    height: 311px;
     text-align: center;
     align-content: center;
     border: 2px solid red;
@@ -99,14 +105,13 @@ a{
     background-color: rgba(0, 0, 0, 0.733);
 }
 .servicePic{
-    width:28%;
-    height:20vh;
+    width: 38%;
+    height: 90%;
     border-right: 2px solid red;
     overflow: hidden;
     text-align: center;
     padding: 1%;
     align-items: center;
-   
 }
 .serviceDes{
     width:68%;
@@ -115,7 +120,7 @@ a{
 }
 .servicePic img{
     width:100%;
-    height:18vh;
+    height: 100%;
     border-radius: 20px;
     margin: 0.5%;
 }
