@@ -31,7 +31,7 @@ a{
 }
 .home:hover,.services:hover,.documentation:hover,.about:hover{
     
-    border-bottom: solid 5px white;
+    border-bottom: solid 4px white;
 }
 .content{
     text-align: center;
